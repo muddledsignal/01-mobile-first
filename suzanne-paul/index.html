@@ -28,7 +28,7 @@
   <header class="clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- Clearfix is the class you'd asign to a div in order to prevent the children of the div from inheriting the float-->
 
     <section class="heading-group-h1">
       <h1>
@@ -36,16 +36,27 @@
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
+
     <nav>
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
+      <div class="icon-menu" data-category="font">
+          <ul id="in-menu">
+              <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+              <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+              <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+              <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+            </ul>
+      </div>
 
-      <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
-      </ul>
+      <ul id="menu">
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        </ul>
+  
     </nav>
+
   </header>
   <main>
     <section id="articles" class="tab-content">
