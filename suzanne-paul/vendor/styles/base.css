@@ -1,0 +1,25 @@
+#menu {
+    display: none;
+}
+
+#in-menu {
+    display: none;
+}
+.icon-menu:hover #in-menu {
+    display: inline-block;
+}
+
+/* The below: As soon as the screen width becomes greater than or equal to 640px, the hamburger menu button will be hidden */
+@media only screen and (min-width: 640px) {
+    #menu {
+        display: inline-block;
+    }
+    
+    .icon-menu {
+        display: none;
+    }
+    
+
+
+
+}
