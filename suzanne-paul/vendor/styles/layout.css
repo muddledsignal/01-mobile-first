@@ -1,0 +1,23 @@
+.heading-group-h1 {
+    padding: 4%;
+}
+
+.icon-menu {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    font-size: 10vw;
+    display: block;
+}
+
+main {
+    padding: 4%;
+}
+
+#in-menu {
+    float: left;
+    margin-top: 5em;
+    margin-right: 11em;
+    padding: 20px;
+    font-size: 5vw;
+}

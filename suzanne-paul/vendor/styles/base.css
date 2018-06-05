@@ -1,12 +1,27 @@
+
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #menu {
     display: none;
 }
 
 #in-menu {
     display: none;
+    list-style-type: none;
 }
+
 .icon-menu:hover #in-menu {
     display: inline-block;
+    
+}
+
+.icon-menu:hover, header.clearfix:hover {
+    height: 20em;
+    
 }
 
 /* The below: As soon as the screen width becomes greater than or equal to 640px, the hamburger menu button will be hidden */
@@ -19,7 +34,4 @@
         display: none;
     }
     
-
-
-
 }
